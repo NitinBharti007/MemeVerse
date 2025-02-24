@@ -61,10 +61,10 @@ MemeVerse is a **React-powered** meme-sharing platform where users can explore, 
 ## 🚀 Installation & Setup  
 
 1. **Clone the Repository**  
-    ```bash
-    git clone https://github.com/NitinBharti007/MemeVerse.git
-    cd memeverse
+   ```bash
+   git clone https://github.com/NitinBharti007/MemeVerse.git
+   cd memeverse
     
 2️. **Install Dependencies**
-```bash
-    npm install
+   ```bash
+   npm install
