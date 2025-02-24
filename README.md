@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🎭 MemeVerse - The Ultimate Meme Hub 😂  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MemeVerse is a **React-powered** meme-sharing platform where users can explore, upload, and engage with memes dynamically. Featuring infinite scrolling, meme categories, AI-generated captions, and a leaderboard system, MemeVerse is the ultimate destination for meme lovers.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features & Functionalities  
 
-### `npm start`
+### 🏠 Homepage (Landing Page)  
+✅ Displays trending memes dynamically (Fetched from an API).  
+✅ Interactive animations & transitions for a smooth UX.  
+✅ **Dark Mode Toggle** for an enhanced user experience.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔍 Meme Explorer Page  
+✅ **Infinite Scrolling / Pagination** for endless meme browsing.  
+✅ Meme categories filter (**Trending, New, Classic, Random**).  
+✅ **Search functionality** with debounced API calls.  
+✅ Sort memes by **Likes, Date, or Comments**.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🖼 Meme Upload Page  
+✅ Upload memes in **image/GIF format**.  
+✅ Add funny captions using a **rich text editor**.  
+✅ **AI-generated meme captions** (Powered by a meme-related API).  
+✅ **Preview feature** before uploading.  
 
-### `npm test`
+### 📌 Meme Details Page  
+✅ **Dynamic routing** (`/meme/:id`) for each meme.  
+✅ Display meme details, likes, comments, and **sharing options**.  
+✅ **Comment system** (Stored in LocalStorage for now).  
+✅ Like button with **animation & localStorage persistence**.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 👤 User Profile Page  
+✅ Displays **user-uploaded memes**.  
+✅ Edit profile details (**Name, Bio, Profile Picture**).  
+✅ View liked memes (Saved in **LocalStorage** or API).  
 
-### `npm run build`
+### 🏆 Leaderboard Page  
+✅ **Top 10 most liked memes** displayed.  
+✅ **User rankings** based on engagement & meme uploads.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ❌ 404 Page (Easter Egg)  
+✅ A **fun, meme-based 404 error page** for non-existent routes.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack  
 
-### `npm run eject`
+- **Frontend:** React.js ⚛️, Tailwind CSS 🎨  
+- **State Management:** useState, useEffect  
+- **API Calls:** Fetch API / Axios  
+- **Persistence:** LocalStorage  
+- **Animations:** Framer Motion  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Installation & Setup  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/yourusername/memeverse.git
+cd memeverse
