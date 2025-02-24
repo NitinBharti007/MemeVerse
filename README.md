@@ -55,16 +55,42 @@ MemeVerse is a **React-powered** meme-sharing platform where users can explore, 
 
 ---
 
+## 🚀 Installation & Setup  
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NitinBharti007/MemeVerse.git
+2. Navigate to project directory:
+   ```bash
+   cd MemeVerse
+3. Run the Development Server
+   ```bash
+   npm install
 
 ---
 
-## 🚀 Installation & Setup  
+## 📝 Usage Guide
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/NitinBharti007/MemeVerse.git
-   cd memeverse
-    
-2️. **Install Dependencies**
-   ```bash
-   npm install
+### 1️⃣ Browsing Memes
+- Visit the Meme Explorer Page to explore trending, new, or classic memes.
+- Use the search bar to find memes based on keywords.
+- Sort memes by likes, date, or comments for a better experience.
+
+### 2️⃣ Uploading Memes
+- Go to the Upload Page and select an image/GIF.
+- Add a caption (or use AI-generated captions).
+- Preview your meme and click **Upload**.
+
+### 3️⃣ Engaging with Memes
+- Click ❤️ to like memes (Likes are stored persistently).
+- Leave comments (Stored locally for now).
+- Share memes with your friends via social media buttons.
+
+### 4️⃣ Managing Your Profile
+- Update your **Name, Bio, and Profile Picture**.
+- View all memes you've uploaded in one place.
+- Browse memes you've liked previously.
+
+### 5️⃣ Leaderboard & Rankings
+- Check the **Leaderboard Page** for top-ranking memes.
+- Compete to get your meme featured in the **Top 10**.
