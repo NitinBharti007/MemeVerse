@@ -94,3 +94,15 @@ MemeVerse is a **React-powered** meme-sharing platform where users can explore, 
 ### 5️⃣ Leaderboard & Rankings
 - Check the **Leaderboard Page** for top-ranking memes.
 - Compete to get your meme featured in the **Top 10**.
+
+---
+
+## 📜 License  
+This project is open-source and available under the **MIT License**.  
+
+## 📬 Contact  
+📩 **Developer:** Nitin Bharti  
+🐙 **GitHub:** [@NitinBharti007](https://github.com/NitinBharti007)  
+📧 **Email:** [dev.nitin63@gmail.com](mailto:dev.nitin63@gmail.com)  
+
+Enjoy **Meme Explorer** & Keep Sharing Memes! 🎭🔥  
