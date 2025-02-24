@@ -4,6 +4,8 @@ MemeVerse is a **React-powered** meme-sharing platform where users can explore, 
 
 ---
 
+[Live Demo](https://meme-verse-psi.vercel.app/)
+
 ## 🚀 Features & Functionalities  
 
 ### 🏠 Homepage (Landing Page)  
@@ -58,9 +60,11 @@ MemeVerse is a **React-powered** meme-sharing platform where users can explore, 
 
 ## 🚀 Installation & Setup  
 
-1️⃣ **Clone the Repository**  
-    ```sh
+1. **Clone the Repository**  
+    ```bash
     git clone https://github.com/NitinBharti007/MemeVerse.git
     cd memeverse
-
-2️⃣ **Install Dependencies**
+    
+2️. **Install Dependencies**
+```bash
+    npm install
